@@ -6,10 +6,14 @@ Lynxlist is a plugin that makes it easy to create category lists and
 makes your lists more interactive with animations of your choice.
 Lynxlist loads your categories without having to reload the page.
 
+###Demo 
+[View demo](http://www.student.bth.se/~tijo15/javascript/kmom07/tester/project/projectsite/index.html "View demo")
+
+##Installation
 ### Step 1: Install from github
 
 ### Step 2: Include the style
-This project is using less for styling the lists, you can read more about less [I'm an inline-style link with title](href="http://lesscss.org/ "here")
+This project is using less for styling the lists, you can read more about less [Less homepage](http://lesscss.org/ "less")
 Include the css and the less file in the <head> element
 
 ```<link rel="stylesheet/less" type="text/css" href="css/style.less">
