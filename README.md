@@ -1,4 +1,4 @@
-# Lynxlist---JQuery-plugin
+# Lynxlist a JQuery-plugin
 A JQuery plugin to create category lists with animations
 
 ### Step 1: Install from github
