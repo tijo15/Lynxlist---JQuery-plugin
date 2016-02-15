@@ -1,5 +1,10 @@
 # Lynxlist a JQuery-plugin
-A JQuery plugin to create category lists with animations
+
+No more static and boring lists!
+
+Lynxlist is a plugin that makes it easy to create category lists and
+makes your lists more interactive with animations of your choice.
+Lynxlist loads your categories without having to reload the page.
 
 ### Step 1: Install from github
 
