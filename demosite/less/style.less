@@ -1,0 +1,157 @@
+
+    .hidden {
+    display: none;
+    }
+
+@media (min-width: 481px){
+
+    .lynxlist {
+        height: auto;
+        position: relative;
+        display: inline-block;
+        width: 250px;
+        border: 1px solid #C9C9C9;
+        border-radius:2px;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    .subcat {
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        padding: 0;
+        border: 1px solid #C9C9C9;
+        border-radius:2px;
+        margin-left: 10%;
+        display: none;
+        list-style: none;
+        text-align: center;
+        //Does not work, hides the subcat2 list.
+        //overflow-x: hidden;
+        //overflow-y: auto;
+    }
+
+    .subcat2 {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        padding: 0;
+        border: 1px solid #C9C9C9;
+        border-radius:2px;
+        margin-left: 10%;
+        list-style: none;
+        text-align: center;
+        display: none;
+        overflow-x: hidden;
+        overflow-y: scroll;  
+    }
+
+    
+    .lynxlist li {
+        margin-bottom: 2%;
+        margin: 0 auto;
+    }
+
+    .subcat li {
+       margin-bottom: 2%;
+    }
+
+    .subcat2 li {
+        margin-bottom: 2%;
+        margin: 0 auto;
+    }
+
+    a.toggle {
+        display: block;
+        color: rgba(0, 0, 0, 0.78);
+        padding: .75em;
+        text-decoration: none;
+
+        &:hover {
+         color: #61A8DC; 
+        }
+    }
+
+    .bgColor {
+        padding: .15em;
+        color: #61A8DC !important;
+        box-shadow: inset 5px 0 0 -2px #61A8DC;  
+    }
+
+    .search{
+    width:250px;
+    margin-bottom:10px;
+    }
+
+}
+
+/* smartphones, iPhone, portrait 480x320 phones */
+
+@media (max-width: 480px){
+
+    .lynxlist {
+        list-style: none;
+        padding: 0;
+        border: 1px solid #C9C9C9;
+        text-align: center;
+
+        .subcat {
+            display: none;
+            list-style: none;
+            text-align: center;
+
+            .subcat2 {
+                list-style: none;
+                text-align: center;
+                width:auto;
+            }
+        }
+
+        .lynxlist li {
+            margin: .5em 0;
+        }
+    }
+    a.toggle {
+        display: block;
+        color: rgba(0, 0, 0, 0.78);
+        padding: .75em;
+        text-decoration: none;
+
+        &:hover {
+         color: #61A8DC;
+        }
+
+    }
+
+    .bgColor {
+        padding: .15em;
+        color: #61A8DC !important;
+        box-shadow: inset 5px 0 0 -2px #61A8DC;
+        transition:all 0.3s ease;
+    }
+
+    .lynxlist li {
+        margin-top: 2%;
+    }
+
+    .subcat li {
+        margin-top: 2%;
+    }
+
+    .subcat2 li {
+        margin-top: 2%;
+    }
+
+    .search{
+    margin-bottom:10px;
+    }
+
+}
+
+
