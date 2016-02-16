@@ -43,6 +43,7 @@
     //Append the list to div
     $(div).append(renderMenu(jsonarray.Categories));
 
+    //Search function
     $("#search").keyup(function() {
 
         // Retrieve the input field text and reset the count to zero
@@ -97,6 +98,7 @@
     }; // End of main function
 
     //Loop through each object in the jsonarray and get the values
+    //List 1
     function renderMenu(jsonObject) {
         var newUl = $("<ul/>");
         var newLi = $("<li/>");
@@ -111,7 +113,7 @@
         })
         return newUl;
     }
-
+    //List 2
     function list_subcat(jsonObject) {
         var newUl = $("<ul/>");
         var newLi = $("<li/>");
@@ -138,7 +140,7 @@
         })
         return newUl;
     }
-
+    //List 3
     function list_subcat2(jsonObject) {
         var newUl = $("<ul/>");
         var newLi = $("<li/>");
